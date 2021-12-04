@@ -1,0 +1,27 @@
+#box1{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: orchid;
+   /* position:static; (use if we want to keep the exact position)*/
+  /* position: relative; (use to deplace a position from its point of origin
+   top: 90px;
+   left: 100px  */ ;
+  /*  position:fixed; (this will fix the position of the element)
+   top: 10px;
+   right:0px; */
+   position: sticky;
+   top:0px;
+   bottom:0px;
+   /* sticky will stick the element to the top or bottom while we scroll */
+}
+
+#box2{
+    border: 1px solid;
+    height: 100px;
+    width: 100 px;
+    background-color: yellow;
+    /*position: absolute; (this use the view port the text just ignore it)
+    top: 100 px;
+    left: 100px; */
+}

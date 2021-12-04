@@ -1,0 +1,20 @@
+p::first-letter{
+    font-size: 90px;
+}
+p::first-line{
+    color: gold;
+    font: bold;
+}
+li::before{
+    content: "✔";
+}
+#CSS::after{
+    content: "👍";
+}
+li::marker{
+    color: gold;
+}
+p::selection{
+    color: white;
+    background-color: yellow; 
+}

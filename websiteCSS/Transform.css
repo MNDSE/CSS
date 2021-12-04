@@ -1,0 +1,18 @@
+#box1{
+    border: 4px solid;
+    width: 330px;
+    height: 250px;
+    font-size: 225px;
+    text-align: center;
+    background-color: blueviolet;
+
+    transform: translateX(50px); /* repositionning */
+    transform: translateY(50px);
+    transform: translate(50px 50px);
+    transform: rotateX(180deg); /* rotate*/
+    transform:rotateY(180deg);
+
+    transform: scale(2 2); /* enlargin*/
+
+    transform: skewX(10deg); /* put element like mirror position*/
+}

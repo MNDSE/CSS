@@ -1,0 +1,42 @@
+#box1{
+    width: 400px;
+    height: 35px;
+    text-align: center;
+    font-size: 30px;
+    background-color: blue;
+    color: white;
+    animation: Color; /* name has to be changed based on the keyframe we wan to run*/
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;  
+}
+
+/* we can use a pseudo classe yoo
+#box1:hover{
+        animation: 10s infinite running crypto;
+}*/
+
+/*Setting a keyframe with the name of our slide(crypto), can be anything
+margin right: from and to ( the animation will*/
+@keyframes crypto {
+    from{margin-left: 0%;}
+    to{margin-left: 100%;}
+}
+/* for rotate but we need to put the name of the keyframe at animation name*/
+@keyframes Rotate {
+   100%{transform: rotateX(360deg)}  
+    100%{transform: rotateY(360deg)}  
+    100%{transform: rotateZ(360deg)}
+}
+@keyframes Opacity{ /* effet clignotant. find in and out*/
+    50%{opacity: 0;}
+}
+
+@keyframes Scale{ /* large , small*/
+    50%{transform: scale(0.5,0.5);}
+}
+@keyframes Color{ /* to change the color by percentage*/
+    20%{background-color: blueviolet;}
+    50%{background-color: cornflowerblue;}
+    100%{background-color: darkgreen;}
+}

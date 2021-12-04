@@ -1,0 +1,39 @@
+ /* 
+ ( this is a demonstration for a body background
+ 
+ body{
+    background: linear-gradient(blue, blue);
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    */
+
+    body{ background-image: url("new-york-city.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: center;
+
+    }
+    
+
+h1{
+    background: linear-gradient(to left,blue, red
+    );
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position-x: center;
+    background-position-y: 10px;
+    background-position: center;
+    margin-left: 10cm;
+    margin-right: 10cm;
+    text-align: center;
+    
+   
+}
+p{
+    background: linear-gradient(to left,blue, red);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+   
+    
+}

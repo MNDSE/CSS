@@ -1,0 +1,17 @@
+h1{
+    /* to add shadow on our text: x,y, spread.
+    x= shadow right or left
+    Y= to or bottom (- FOR TOP)
+    Spread= to spread it */
+
+
+    text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
+  
+    
+
+}
+h1:hover{
+    /* to make a boxe hovering with pseduo class */
+    box-shadow: 2px 5px 0px;
+    margin-right: 350px;
+}

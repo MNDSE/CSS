@@ -1,0 +1,32 @@
+a:link{
+    color: orange;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    color: greenyellow;
+}
+a:active{
+    color: blue;
+}
+button:hover{
+    background-color: lightgrey;
+}
+button:active{
+    background-color: lightseagreen;
+}
+/*li:nth-child(1){
+    background-color: lightseagreen;
+} to highlight element 1 */
+
+/*li:nth-child(even){
+    background-color: blue;
+}
+li:nth-child(odd){
+    background-color: greenyellow;
+} to highlight even and odd element*/
+
+li:nth-child(5n){ /* to highligh every 5 elements. if I add 5n+2, it will start by 2*/
+    background-color: gold;
+}

@@ -1,0 +1,13 @@
+.fa-youtube{
+    color: red;
+}
+.fa-twitter{
+    color: aqua;
+    font-size: 20px;
+    position:relative;
+    left: 50px ;
+
+}
+.fa-home{
+    color: blueviolet;
+}

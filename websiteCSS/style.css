@@ -1,0 +1,38 @@
+ 
+    body{
+        background-color: blueviolet;
+    }
+    h1{
+        color: whitesmoke;
+        font-family: "M PLUS 2", "sans serif";
+        font-size:xx-large; 
+        font-weight: bolder;
+        font-style: normal;
+        text-decoration-line: underline;
+        text-decoration-style:dashed;
+        text-align: center;
+        
+    }
+    p{
+        background-color:black;
+        color: white;
+        font-family:SF-PRO
+    }
+    /* modifying our ids with #p1
+    */
+    #p1{
+        color: tomato;
+        font-family: SANS-francisco light;
+    }
+    #p2{
+        color: bisque;
+
+    }
+    /* using the class to modify in css
+    */
+    .rafet{
+        color: yellowgreen;
+    }
+    .niawe{
+        color: orangered;
+    }
